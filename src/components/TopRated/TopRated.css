@@ -1,0 +1,28 @@
+.top-rated-outer-container {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.top-rated-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.top-rated-title-container {
+  display: flex;
+  justify-content: center;
+}
+.top-rated-title {
+  color: #ffff;
+  margin-bottom: 90px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e74c3c;
+}
+.top-rated-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 50px;
+}
+.top-rated-cards-container > div {
+  width: 100%;
+}
